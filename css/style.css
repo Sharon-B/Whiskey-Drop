@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper { 
+
+}
+
+.container-wrapper-blu {
+    background-color: #043b77;
+    color: #c49f1cfa;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -59,20 +68,39 @@ body {
 page-header h2 {
     margin-top: 0;
 }
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
 /* block divider*/
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider-orange {
     background-color: #ab894be6;
 }
 
+.block-divider-gold {
+    background-color: #caa61fde;
+}
+
 .block-divider-short {
     width: 35px;
 }
+
+/* Content Containers*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
 /* NavBar */
 .navalert-container {
     position: absolute;
@@ -148,8 +176,27 @@ page-header h2 {
 .btn--blu:active:focus {
     background-color: #10447b;
     border-color: #10447b;
+}
 
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #043b77;
 }
 
 .table-container {
