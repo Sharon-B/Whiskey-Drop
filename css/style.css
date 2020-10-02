@@ -11,6 +11,11 @@ body {
     color: #c49f1cfa;
 }
 
+.container-wrapper-black {
+    background-color: black;
+    color: #444;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -201,4 +206,13 @@ page-header h2 {
 
 .table-container {
 
+}
+
+.thead-gold {
+    background-color: #dba450;
+    color: #444;
+}
+
+.table {
+    color: #d39e00;
 }
